@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* RdioAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RdioAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* RdioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RdioViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* RdioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RdioViewController.m */; };
+		ABF65DF213750F4100D6320D /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF65DF113750F4100D6320D /* Album.m */; };
+		ABF65F2B1375286900D6320D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF65F2A1375286900D6320D /* QuartzCore.framework */; };
+		ABF65FB51375D84900D6320D /* Rdio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF65FB41375D84900D6320D /* Rdio.framework */; };
+		ABF65FBD1375D86600D6320D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF65FBC1375D86600D6320D /* CFNetwork.framework */; };
+		ABF65FBF1375D86B00D6320D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF65FBE1375D86B00D6320D /* SystemConfiguration.framework */; };
+		ABF65FC11375D87200D6320D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF65FC01375D87200D6320D /* AudioToolbox.framework */; };
+		ABF65FC31375D87700D6320D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF65FC21375D87700D6320D /* Security.framework */; };
+		ABF660321375E03600D6320D /* TrackObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF660311375E03600D6320D /* TrackObject.m */; };
+		ABF661591375EB5700D6320D /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF661511375EB5600D6320D /* AsyncImageView.m */; };
+		ABF6615A1375EB5700D6320D /* CloseupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF661531375EB5600D6320D /* CloseupViewController.m */; };
+		ABF6615B1375EB5700D6320D /* ImageCacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF661551375EB5600D6320D /* ImageCacheObject.m */; };
+		ABF6615C1375EB5700D6320D /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF661571375EB5700D6320D /* ImageCache.m */; };
+		ABF6615D1375EB5700D6320D /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF661581375EB5700D6320D /* white.png */; };
+		ABF662E31376077300D6320D /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF662E11376077300D6320D /* AlbumViewController.m */; };
+		ABF662E41376077300D6320D /* AlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF662E21376077300D6320D /* AlbumViewController.xib */; };
+		ABF6639813760B6100D6320D /* AlbumDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF6639713760B6100D6320D /* AlbumDetails.m */; };
+		ABF664011376104C00D6320D /* AlbumObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF664001376104C00D6320D /* AlbumObject.m */; };
+		ABF6658813765C3F00D6320D /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF6658713765C3F00D6320D /* Settings.m */; };
+		ABF6667D137666F800D6320D /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF66677137666F800D6320D /* bg@2x.png */; };
+		ABF6667E137666F800D6320D /* CoverFooter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF66678137666F800D6320D /* CoverFooter@2x.png */; };
+		ABF6667F137666F800D6320D /* frame-noglow.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF66679137666F800D6320D /* frame-noglow.png */; };
+		ABF66680137666F800D6320D /* frame-noglow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF6667A137666F800D6320D /* frame-noglow@2x.png */; };
+		ABF66681137666F800D6320D /* grey-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF6667B137666F800D6320D /* grey-background@2x.png */; };
+		ABF66682137666F800D6320D /* loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF6667C137666F800D6320D /* loading@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* RdioAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RdioAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* RdioAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RdioAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Rdio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rdio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* RdioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RdioViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* RdioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RdioViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* RdioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RdioViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Rdio_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rdio_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Rdio-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Rdio-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		ABF65DF013750F4100D6320D /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		ABF65DF113750F4100D6320D /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		ABF65F2A1375286900D6320D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ABF65FB41375D84900D6320D /* Rdio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Rdio.framework; sourceTree = "<group>"; };
+		ABF65FBC1375D86600D6320D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		ABF65FBE1375D86B00D6320D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ABF65FC01375D87200D6320D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		ABF65FC21375D87700D6320D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		ABF660301375E03600D6320D /* TrackObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackObject.h; sourceTree = "<group>"; };
+		ABF660311375E03600D6320D /* TrackObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackObject.m; sourceTree = "<group>"; };
+		ABF661501375EB5600D6320D /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		ABF661511375EB5600D6320D /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		ABF661521375EB5600D6320D /* CloseupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseupViewController.h; sourceTree = "<group>"; };
+		ABF661531375EB5600D6320D /* CloseupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseupViewController.m; sourceTree = "<group>"; };
+		ABF661541375EB5600D6320D /* ImageCacheObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCacheObject.h; sourceTree = "<group>"; };
+		ABF661551375EB5600D6320D /* ImageCacheObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCacheObject.m; sourceTree = "<group>"; };
+		ABF661561375EB5600D6320D /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		ABF661571375EB5700D6320D /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
+		ABF661581375EB5700D6320D /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		ABF662E01376077300D6320D /* AlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		ABF662E11376077300D6320D /* AlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
+		ABF662E21376077300D6320D /* AlbumViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumViewController.xib; sourceTree = "<group>"; };
+		ABF6639613760B6100D6320D /* AlbumDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumDetails.h; sourceTree = "<group>"; };
+		ABF6639713760B6100D6320D /* AlbumDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumDetails.m; sourceTree = "<group>"; };
+		ABF663FF1376104C00D6320D /* AlbumObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumObject.h; sourceTree = "<group>"; };
+		ABF664001376104C00D6320D /* AlbumObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumObject.m; sourceTree = "<group>"; };
+		ABF6658613765C3F00D6320D /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		ABF6658713765C3F00D6320D /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		ABF66677137666F800D6320D /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		ABF66678137666F800D6320D /* CoverFooter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CoverFooter@2x.png"; sourceTree = "<group>"; };
+		ABF66679137666F800D6320D /* frame-noglow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-noglow.png"; sourceTree = "<group>"; };
+		ABF6667A137666F800D6320D /* frame-noglow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-noglow@2x.png"; sourceTree = "<group>"; };
+		ABF6667B137666F800D6320D /* grey-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grey-background@2x.png"; sourceTree = "<group>"; };
+		ABF6667C137666F800D6320D /* loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				ABF65F2B1375286900D6320D /* QuartzCore.framework in Frameworks */,
+				ABF65FB51375D84900D6320D /* Rdio.framework in Frameworks */,
+				ABF65FBD1375D86600D6320D /* CFNetwork.framework in Frameworks */,
+				ABF65FBF1375D86B00D6320D /* SystemConfiguration.framework in Frameworks */,
+				ABF65FC11375D87200D6320D /* AudioToolbox.framework in Frameworks */,
+				ABF65FC31375D87700D6320D /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ABF6614F1375EB5600D6320D /* AsyncImageView */,
+				1D3623240D0F684500981E51 /* RdioAppDelegate.h */,
+				1D3623250D0F684500981E51 /* RdioAppDelegate.m */,
+				ABF6658613765C3F00D6320D /* Settings.h */,
+				ABF6658713765C3F00D6320D /* Settings.m */,
+				28D7ACF60DDB3853001CB0EB /* RdioViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* RdioViewController.m */,
+				ABF65DF013750F4100D6320D /* Album.h */,
+				ABF65DF113750F4100D6320D /* Album.m */,
+				ABF663FE1376103D00D6320D /* Objects */,
+				ABF6635C13760B2700D6320D /* Album */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Rdio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Rdio_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABF66676137666F800D6320D /* Assets */,
+				2899E5210DE3E06400AC0155 /* RdioViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Rdio-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABF65FB41375D84900D6320D /* Rdio.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				ABF65F2A1375286900D6320D /* QuartzCore.framework */,
+				ABF65FBC1375D86600D6320D /* CFNetwork.framework */,
+				ABF65FBE1375D86B00D6320D /* SystemConfiguration.framework */,
+				ABF65FC01375D87200D6320D /* AudioToolbox.framework */,
+				ABF65FC21375D87700D6320D /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABF6614F1375EB5600D6320D /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				ABF661501375EB5600D6320D /* AsyncImageView.h */,
+				ABF661511375EB5600D6320D /* AsyncImageView.m */,
+				ABF661521375EB5600D6320D /* CloseupViewController.h */,
+				ABF661531375EB5600D6320D /* CloseupViewController.m */,
+				ABF661541375EB5600D6320D /* ImageCacheObject.h */,
+				ABF661551375EB5600D6320D /* ImageCacheObject.m */,
+				ABF661561375EB5600D6320D /* ImageCache.h */,
+				ABF661571375EB5700D6320D /* ImageCache.m */,
+				ABF661581375EB5700D6320D /* white.png */,
+			);
+			name = AsyncImageView;
+			sourceTree = "<group>";
+		};
+		ABF6635C13760B2700D6320D /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				ABF662E01376077300D6320D /* AlbumViewController.h */,
+				ABF662E11376077300D6320D /* AlbumViewController.m */,
+				ABF662E21376077300D6320D /* AlbumViewController.xib */,
+				ABF6639613760B6100D6320D /* AlbumDetails.h */,
+				ABF6639713760B6100D6320D /* AlbumDetails.m */,
+			);
+			name = Album;
+			sourceTree = "<group>";
+		};
+		ABF663FE1376103D00D6320D /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				ABF660301375E03600D6320D /* TrackObject.h */,
+				ABF660311375E03600D6320D /* TrackObject.m */,
+				ABF663FF1376104C00D6320D /* AlbumObject.h */,
+				ABF664001376104C00D6320D /* AlbumObject.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		ABF66676137666F800D6320D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				ABF66677137666F800D6320D /* bg@2x.png */,
+				ABF66678137666F800D6320D /* CoverFooter@2x.png */,
+				ABF66679137666F800D6320D /* frame-noglow.png */,
+				ABF6667A137666F800D6320D /* frame-noglow@2x.png */,
+				ABF6667B137666F800D6320D /* grey-background@2x.png */,
+				ABF6667C137666F800D6320D /* loading@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Rdio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Rdio" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rdio;
+			productName = Rdio;
+			productReference = 1D6058910D05DD3D006BFB54 /* Rdio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Rdio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Rdio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* RdioViewController.xib in Resources */,
+				ABF6615D1375EB5700D6320D /* white.png in Resources */,
+				ABF662E41376077300D6320D /* AlbumViewController.xib in Resources */,
+				ABF6667D137666F800D6320D /* bg@2x.png in Resources */,
+				ABF6667E137666F800D6320D /* CoverFooter@2x.png in Resources */,
+				ABF6667F137666F800D6320D /* frame-noglow.png in Resources */,
+				ABF66680137666F800D6320D /* frame-noglow@2x.png in Resources */,
+				ABF66681137666F800D6320D /* grey-background@2x.png in Resources */,
+				ABF66682137666F800D6320D /* loading@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* RdioAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* RdioViewController.m in Sources */,
+				ABF65DF213750F4100D6320D /* Album.m in Sources */,
+				ABF660321375E03600D6320D /* TrackObject.m in Sources */,
+				ABF661591375EB5700D6320D /* AsyncImageView.m in Sources */,
+				ABF6615A1375EB5700D6320D /* CloseupViewController.m in Sources */,
+				ABF6615B1375EB5700D6320D /* ImageCacheObject.m in Sources */,
+				ABF6615C1375EB5700D6320D /* ImageCache.m in Sources */,
+				ABF662E31376077300D6320D /* AlbumViewController.m in Sources */,
+				ABF6639813760B6100D6320D /* AlbumDetails.m in Sources */,
+				ABF664011376104C00D6320D /* AlbumObject.m in Sources */,
+				ABF6658813765C3F00D6320D /* Settings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Rdio_Prefix.pch;
+				INFOPLIST_FILE = "Rdio-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = Rdio;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Rdio_Prefix.pch;
+				INFOPLIST_FILE = "Rdio-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = Rdio;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Rdio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Rdio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

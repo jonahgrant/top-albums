@@ -1,0 +1,1843 @@
+TRdio
+v7
+r0
+t326526572.863673
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Rdio.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Info.plist Rdio-Info.plist
+cCompileXIB /Users/jonahgrant/Rdio/MainWindow.xib
+cCompileXIB /Users/jonahgrant/Rdio/RdioViewController.xib
+cCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/white.png Classes/white.png
+cCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/bg@2x.png bg@2x.png
+cCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/loading@2x.png loading@2x.png
+cCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/CoverFooter@2x.png CoverFooter@2x.png
+cCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/frame-noglow.png frame-noglow.png
+cCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/frame-noglow@2x.png frame-noglow@2x.png
+cCompileXIB /Users/jonahgrant/Rdio/Classes/AlbumViewController.xib
+cCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/grey-background@2x.png grey-background@2x.png
+cProcessPCH /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch.gch Rdio_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch.gch Rdio_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/main.o /Users/jonahgrant/Rdio/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioAppDelegate.o /Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioViewController.o /Users/jonahgrant/Rdio/Classes/RdioViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Album.o /Users/jonahgrant/Rdio/Classes/Album.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/TrackObject.o /Users/jonahgrant/Rdio/Classes/TrackObject.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AsyncImageView.o /Users/jonahgrant/Rdio/Classes/AsyncImageView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/CloseupViewController.o /Users/jonahgrant/Rdio/Classes/CloseupViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/ImageCacheObject.o /Users/jonahgrant/Rdio/Classes/ImageCacheObject.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/ImageCache.o /Users/jonahgrant/Rdio/Classes/ImageCache.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumViewController.o /Users/jonahgrant/Rdio/Classes/AlbumViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumDetails.o /Users/jonahgrant/Rdio/Classes/AlbumDetails.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumObject.o /Users/jonahgrant/Rdio/Classes/AlbumObject.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Settings.o /Users/jonahgrant/Rdio/Classes/Settings.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/main.o /Users/jonahgrant/Rdio/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioAppDelegate.o /Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioViewController.o /Users/jonahgrant/Rdio/Classes/RdioViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Album.o /Users/jonahgrant/Rdio/Classes/Album.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/TrackObject.o /Users/jonahgrant/Rdio/Classes/TrackObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AsyncImageView.o /Users/jonahgrant/Rdio/Classes/AsyncImageView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/CloseupViewController.o /Users/jonahgrant/Rdio/Classes/CloseupViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/ImageCacheObject.o /Users/jonahgrant/Rdio/Classes/ImageCacheObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/ImageCache.o /Users/jonahgrant/Rdio/Classes/ImageCache.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumViewController.o /Users/jonahgrant/Rdio/Classes/AlbumViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio normal armv6
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumDetails.o /Users/jonahgrant/Rdio/Classes/AlbumDetails.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumObject.o /Users/jonahgrant/Rdio/Classes/AlbumObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Settings.o /Users/jonahgrant/Rdio/Classes/Settings.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio normal armv7
+cCreateUniversalBinary /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio normal "armv6 armv7"
+cGenerateDSYMFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app.dSYM /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio
+cProcessProductPackaging "/Users/jonahgrant/Library/MobileDevice/Provisioning Profiles/039A3303-4F4D-4487-8420-B14333F8D536.mobileprovision" /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/embedded.mobileprovision
+cTouch /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio.xcent
+cCodeSign /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D5F25270000000000000110
+t1298081063
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D5A25CF00000000003FF380
+t1297753551
+s4191104
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004D5A259E0000000000000A23
+t1297753502
+s2595
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004D54D1B500000000002CAD60
+t1297404341
+s2927968
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D49500000000000000C4
+t1297405077
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D54D608000000000026CB10
+t1297405448
+s2542352
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004D54D0A600000000000CDED0
+t1297404070
+s843472
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D54D0E700000000000B0CA0
+t1297404135
+s724128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Users/jonahgrant/Library/MobileDevice/Provisioning Profiles/039A3303-4F4D-4487-8420-B14333F8D536.mobileprovision
+c000000004DBE02240000000000002075
+t1304298020
+s8309
+
+N/Users/jonahgrant/Rdio/Classes/Album.h
+c000000004DC60BDC0000000000000224
+t1304824796
+s548
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"AlbumObject.h"
+
+N/Users/jonahgrant/Rdio/Classes/Album.m
+c000000004DC624CE00000000000004FA
+t1304831182
+s1274
+i"Album.h"
+i"AsyncImageView.h"
+
+N/Users/jonahgrant/Rdio/Classes/AlbumDetails.h
+c000000004DC60AFA0000000000000184
+t1304824570
+s388
+i<UIKit/UIKit.h>
+i"AsyncImageView.h"
+i"AlbumObject.h"
+
+N/Users/jonahgrant/Rdio/Classes/AlbumDetails.m
+c000000004DC62AAA00000000000007D4
+t1304832682
+s2004
+i"AlbumDetails.h"
+
+N/Users/jonahgrant/Rdio/Classes/AlbumObject.h
+c000000004DC62A670000000000000828
+t1304832615
+s2088
+i<Foundation/Foundation.h>
+
+N/Users/jonahgrant/Rdio/Classes/AlbumObject.m
+c000000004DC62A760000000000000A17
+t1304832630
+s2583
+i"AlbumObject.h"
+
+N/Users/jonahgrant/Rdio/Classes/AlbumView.h
+c000000004DC5B1C000000000000000DE
+t1304801728
+s222
+i<UIKit/UIKit.h>
+i"TrackObject.h"
+
+N/Users/jonahgrant/Rdio/Classes/AlbumView.m
+c000000004DC5B04F000000000000026E
+t1304801359
+s622
+i"AlbumView.h"
+i<Rdio/Rdio.h>
+
+N/Users/jonahgrant/Rdio/Classes/AlbumViewController.h
+c000000004DC61ECD0000000000000316
+t1304829645
+s790
+i<UIKit/UIKit.h>
+i<Rdio/Rdio.h>
+i<QuartzCore/QuartzCore.h>
+i"AlbumDetails.h"
+i"AlbumObject.h"
+i"TrackObject.h"
+
+N/Users/jonahgrant/Rdio/Classes/AlbumViewController.m
+c000000004DC62EE800000000000018A5
+t1304833768
+s6309
+i"AlbumViewController.h"
+i"RdioAppDelegate.h"
+
+N/Users/jonahgrant/Rdio/Classes/AlbumViewController.xib
+c000000004DC5D5900000000000005E98
+t1304810896
+s24216
+
+N/Users/jonahgrant/Rdio/Classes/AsyncImageView.h
+c000000004DA1EF690000000000000204
+t1302458217
+s516
+i<UIKit/UIKit.h>
+
+N/Users/jonahgrant/Rdio/Classes/AsyncImageView.m
+c000000004DA1EF690000000000001684
+t1302458217
+s5764
+i"AsyncImageView.h"
+i"ImageCacheObject.h"
+i"ImageCache.h"
+
+N/Users/jonahgrant/Rdio/Classes/CloseupViewController.h
+c000000004DA1EF6900000000000001B1
+t1302458217
+s433
+i<UIKit/UIKit.h>
+i"AsyncImageView.h"
+
+N/Users/jonahgrant/Rdio/Classes/CloseupViewController.m
+c000000004DA1EF69000000000000023B
+t1302458217
+s571
+i"CloseupViewController.h"
+
+N/Users/jonahgrant/Rdio/Classes/ImageCache.h
+c000000004DA1EF69000000000000025A
+t1302458217
+s602
+i<Foundation/Foundation.h>
+
+N/Users/jonahgrant/Rdio/Classes/ImageCache.m
+c000000004DA1EF690000000000000655
+t1302458217
+s1621
+i"ImageCache.h"
+i"ImageCacheObject.h"
+
+N/Users/jonahgrant/Rdio/Classes/ImageCacheObject.h
+c000000004DA1EF690000000000000270
+t1302458217
+s624
+i<Foundation/Foundation.h>
+
+N/Users/jonahgrant/Rdio/Classes/ImageCacheObject.m
+c000000004DA1EF6900000000000002A0
+t1302458217
+s672
+i"ImageCacheObject.h"
+
+N/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.h
+c000000004DC5A3E70000000000000227
+t1304798183
+s551
+i<UIKit/UIKit.h>
+i<Rdio/Rdio.h>
+
+N/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m
+c000000004DC629870000000000000C73
+t1304832391
+s3187
+i"RdioAppDelegate.h"
+i"RdioViewController.h"
+i"Settings.h"
+
+N/Users/jonahgrant/Rdio/Classes/RdioViewController.h
+c000000004DC602430000000000000338
+t1304822339
+s824
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioToolbox.h>
+i<QuartzCore/QuartzCore.h>
+i<Rdio/Rdio.h>
+i"Album.h"
+
+N/Users/jonahgrant/Rdio/Classes/RdioViewController.m
+c000000004DC62E050000000000000BD5
+t1304833541
+s3029
+i"RdioViewController.h"
+i"Album.h"
+i"TrackObject.h"
+i"AlbumObject.h"
+i"AlbumViewController.h"
+
+N/Users/jonahgrant/Rdio/Classes/Settings.h
+c000000004DC59F0D0000000000000583
+t1304796941
+s1411
+i<Foundation/Foundation.h>
+
+N/Users/jonahgrant/Rdio/Classes/Settings.m
+c000000004DC59F0D0000000000000BF0
+t1304796941
+s3056
+i"Settings.h"
+
+N/Users/jonahgrant/Rdio/Classes/TrackObject.h
+c000000004DC5ACB900000000000007CB
+t1304800441
+s1995
+i<Foundation/Foundation.h>
+
+N/Users/jonahgrant/Rdio/Classes/TrackObject.m
+c000000004DC5B6740000000000000A33
+t1304802932
+s2611
+i"TrackObject.h"
+
+N/Users/jonahgrant/Rdio/Classes/white.png
+c000000004DA1EF690000000000000B32
+t1302458217
+s2866
+
+N/Users/jonahgrant/Rdio/CoverFooter@2x.png
+c000000004DC5C0B30000000000000C30
+t1304805555
+s3120
+
+N/Users/jonahgrant/Rdio/IpadActivist.png
+c000000004DAF4FC40000000000001069
+t1303334852
+s4201
+
+N/Users/jonahgrant/Rdio/IpadAdventurer.png
+c000000004DAF4FC40000000000000E40
+t1303334852
+s3648
+
+N/Users/jonahgrant/Rdio/IpadAlphaMale.png
+c000000004DAF4FC40000000000000B8F
+t1303334852
+s2959
+
+N/Users/jonahgrant/Rdio/IpadCEO.png
+c000000004DAF4FC40000000000000B76
+t1303334852
+s2934
+
+N/Users/jonahgrant/Rdio/IpadCreativeCat.png
+c000000004DAF4FC40000000000001180
+t1303334852
+s4480
+
+N/Users/jonahgrant/Rdio/IpadDetective.png
+c000000004DAF4FC40000000000000CC6
+t1303334852
+s3270
+
+N/Users/jonahgrant/Rdio/IpadEnglishMajor.png
+c000000004DAF4FC4000000000000156B
+t1303334852
+s5483
+
+N/Users/jonahgrant/Rdio/IpadEnvironmentalist.png
+c000000004DAF4FC40000000000000D7B
+t1303334852
+s3451
+
+N/Users/jonahgrant/Rdio/IpadFoodie.png
+c000000004DAF4FC4000000000000091F
+t1303334852
+s2335
+
+N/Users/jonahgrant/Rdio/IpadFunnyGuy.png
+c000000004DAF4FC400000000000015DD
+t1303334852
+s5597
+
+N/Users/jonahgrant/Rdio/IpadFuturist.png
+c000000004DAF4FC40000000000000E20
+t1303334852
+s3616
+
+N/Users/jonahgrant/Rdio/IpadHealthNut.png
+c000000004DAF4FC40000000000000CE2
+t1303334852
+s3298
+
+N/Users/jonahgrant/Rdio/IpadHistoryBuff.png
+c000000004DAF4FC40000000000000E63
+t1303334852
+s3683
+
+N/Users/jonahgrant/Rdio/IpadHopefulRomantic.png
+c000000004DAF4FC40000000000000FA0
+t1303334852
+s4000
+
+N/Users/jonahgrant/Rdio/IpadLabRat.png
+c000000004DAF4FC40000000000000C77
+t1303334852
+s3191
+
+N/Users/jonahgrant/Rdio/IpadParent.png
+c000000004DAF4FC40000000000000D37
+t1303334852
+s3383
+
+N/Users/jonahgrant/Rdio/IpadRecentGrad.png
+c000000004DAF4FC40000000000000D0B
+t1303334852
+s3339
+
+N/Users/jonahgrant/Rdio/IpadSingleMingler.png
+c000000004DAF4FC40000000000000D1E
+t1303334852
+s3358
+
+N/Users/jonahgrant/Rdio/IpadSmartyPants.png
+c000000004DAF4FC40000000000001415
+t1303334852
+s5141
+
+N/Users/jonahgrant/Rdio/IpadSoulSeeker.png
+c000000004DAF4FC4000000000000101C
+t1303334852
+s4124
+
+N/Users/jonahgrant/Rdio/IpadSuperhero.png
+c000000004DAF4FC40000000000000E67
+t1303334852
+s3687
+
+N/Users/jonahgrant/Rdio/IpadTechEnthusiast.png
+c000000004DAF4FC40000000000000B06
+t1303334852
+s2822
+
+N/Users/jonahgrant/Rdio/IpadThrillSeeker.png
+c000000004DAF4FC400000000000010A3
+t1303334852
+s4259
+
+N/Users/jonahgrant/Rdio/IpadWizard.png
+c000000004DAF4FC40000000000000D4A
+t1303334852
+s3402
+
+N/Users/jonahgrant/Rdio/IpadWorldTraveler.png
+c000000004DAF4FC40000000000000D18
+t1303334852
+s3352
+
+N/Users/jonahgrant/Rdio/MainWindow.xib
+c000000004DC4D6580000000000004E05
+t1304745560
+s19973
+
+N/Users/jonahgrant/Rdio/Rdio.framework/Headers/RDAPIRequest.h
+c000000004DC4EFB90000000000000FF5
+t1304752057
+s4085
+i<Foundation/Foundation.h>
+
+N/Users/jonahgrant/Rdio/Rdio.framework/Headers/RDPlayer.h
+c000000004DC4EFB90000000000000F2D
+t1304752057
+s3885
+i<UIKit/UIKit.h>
+
+N/Users/jonahgrant/Rdio/Rdio.framework/Headers/Rdio.h
+c000000004DC4EFB90000000000001577
+t1304752057
+s5495
+i"RDPlayer.h"
+i"RDAPIRequest.h"
+
+N/Users/jonahgrant/Rdio/Rdio.framework/Rdio
+c000000004DC4EFB900000000002A698C
+t1304752057
+s2779532
+
+N/Users/jonahgrant/Rdio/RdioViewController.xib
+c000000004DC4D6580000000000001A39
+t1304745560
+s6713
+
+N/Users/jonahgrant/Rdio/Rdio_Prefix.pch
+c000000004DC5A43400000000000000CE
+t1304798260
+s206
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"RdioAppDelegate.h"
+
+N/Users/jonahgrant/Rdio/_is.png
+c000000004DC5B9F600000000000035BE
+t1304803830
+s13758
+
+N/Users/jonahgrant/Rdio/bg@2x.png
+c000000004DC5B7C4000000000002447C
+t1304803268
+s148604
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app
+t1304833772
+s1632
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app.dSYM
+t1304833772
+s102
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/AlbumViewController.nib
+t1304810898
+s2485
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/CoverFooter@2x.png
+t1304805570
+s3216
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Info.plist
+t1304803419
+s881
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadActivist.png
+t1304746063
+s4478
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadAdventurer.png
+t1304746063
+s4461
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadAlphaMale.png
+t1304746063
+s3126
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadCEO.png
+t1304746063
+s3093
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadCreativeCat.png
+t1304746064
+s4878
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadDetective.png
+t1304746064
+s3380
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadEnglishMajor.png
+t1304746064
+s5964
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadEnvironmentalist.png
+t1304746064
+s3755
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadFoodie.png
+t1304746064
+s3598
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadFunnyGuy.png
+t1304746064
+s6233
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadFuturist.png
+t1304746064
+s3772
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadHealthNut.png
+t1304746064
+s3459
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadHistoryBuff.png
+t1304746064
+s4512
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadHopefulRomantic.png
+t1304746064
+s4060
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadLabRat.png
+t1304746064
+s3232
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadParent.png
+t1304746064
+s3406
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadRecentGrad.png
+t1304746064
+s3518
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadSingleMingler.png
+t1304746064
+s3246
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadSmartyPants.png
+t1304746064
+s5370
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadSoulSeeker.png
+t1304746064
+s4266
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadSuperhero.png
+t1304746064
+s3995
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadTechEnthusiast.png
+t1304746064
+s3133
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadThrillSeeker.png
+t1304746064
+s4443
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadWizard.png
+t1304746064
+s3438
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadWorldTraveler.png
+t1304746064
+s3426
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/MainWindow.nib
+t1304745667
+s1675
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/PkgInfo
+t1304803419
+s8
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio
+t1304833772
+s713760
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/RdioViewController.nib
+t1304745667
+s1269
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/ResourceRules.plist
+t1304745667
+s485
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/_is.png
+t2
+s0
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/bg@2x.png
+t1304803321
+s157114
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/embedded.mobileprovision
+t1304745670
+s8309
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/frame-noglow.png
+t1304806715
+s1830
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/frame-noglow@2x.png
+t1304806715
+s3220
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/grey-background.png
+t1304810015
+s22746
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/grey-background@2x.png
+t1304825306
+s3918
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/ipadStereotypeButton.png
+t1304748840
+s6363
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/loading.png
+t1304804001
+s11796
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/loading@2x.png
+t1304804075
+s11796
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/square-600.jpg
+t1304748988
+s280954
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/white.png
+t1304802656
+s2814
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Album.o
+t1304832683
+s46188
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumDetails.o
+t1304832683
+s47732
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumObject.o
+t1304832683
+s38684
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumView.o
+t1304801741
+s38148
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumViewController.o
+t1304833772
+s77368
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AsyncImageView.o
+t1304802657
+s52736
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/CloseupViewController.o
+t1304802658
+s41460
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/ImageCache.o
+t1304802658
+s13328
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/ImageCacheObject.o
+t1304802658
+s11404
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio
+t1304833772
+s356308
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio.LinkFileList
+c000000004DC6259E0000000000000536
+t1304831390
+s1334
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioAppDelegate.o
+t1304832683
+s56764
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioViewController.o
+t1304833553
+s60704
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Settings.o
+t1304798484
+s18464
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/TrackObject.o
+t1304802934
+s38032
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/main.o
+t1304798484
+s6416
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Album.o
+t1304832683
+s45932
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumDetails.o
+t1304832684
+s47460
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumObject.o
+t1304832684
+s38000
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumView.o
+t1304801741
+s38124
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumViewController.o
+t1304833772
+s76388
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AsyncImageView.o
+t1304802659
+s52432
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/CloseupViewController.o
+t1304802659
+s41380
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/ImageCache.o
+t1304802659
+s13240
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/ImageCacheObject.o
+t1304802659
+s11340
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio
+t1304833772
+s353312
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio.LinkFileList
+c000000004DC6259E0000000000000536
+t1304831390
+s1334
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioAppDelegate.o
+t1304832683
+s56604
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioViewController.o
+t1304833556
+s59736
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Settings.o
+t1304798485
+s18140
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/TrackObject.o
+t1304802934
+s37380
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/main.o
+t1304798484
+s6400
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio.xcent
+t1304803420
+s414
+
+N/Users/jonahgrant/Rdio/frame-noglow.png
+c000000004DC59F0D000000000000066F
+t1304796941
+s1647
+
+N/Users/jonahgrant/Rdio/frame-noglow@2x.png
+c000000004DC59F0D0000000000000A89
+t1304796941
+s2697
+
+N/Users/jonahgrant/Rdio/grey-background.png
+c000000004DC59F0D0000000000011F18
+t1304796941
+s73496
+
+N/Users/jonahgrant/Rdio/grey-background@2x.png
+c000000004DC60DA000000000000010C1
+t1304825248
+s4289
+
+N/Users/jonahgrant/Rdio/ipadStereotypeButton.png
+c000000004DAF4FC40000000000001745
+t1303334852
+s5957
+
+N/Users/jonahgrant/Rdio/loading.png
+c000000004DC5B9F600000000000035BE
+t1304803830
+s13758
+
+N/Users/jonahgrant/Rdio/loading@2x.png
+c000000004DC5B9F600000000000035BE
+t1304803830
+s13758
+
+N/Users/jonahgrant/Rdio/main.m
+c000000004DC4D6580000000000000164
+t1304745560
+s356
+i<UIKit/UIKit.h>
+
+N/Users/jonahgrant/Rdio/square-600.jpg
+c000000004DC4E3A8000000000004497A
+t1304748968
+s280954
+
+N/var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dqucbreoqmjuvefvfnnjhbtoninv/Rdio_Prefix.pch.gch
+t1304798299
+s10254348
+
+N/var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch.gch
+t1304798483
+s10717196
+
+N/var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-eqqcmkoluoozhghimpwpnmguuylr/Rdio_Prefix.pch.gch
+t1304745669
+s10647452
+
+N/var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch.gch
+t1304798483
+s10254348
+
+N/var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fzgynopgmrrthobgzixxgpvykilh/Rdio_Prefix.pch.gch
+t1304798299
+s10717196
+
+N/var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-hapwlqzvrbqegsbkuqsnhnfrirgd/Rdio_Prefix.pch.gch
+t1304745670
+s10184604
+
+NRdio-Info.plist
+c000000004DC5B85B00000000000003D8
+t1304803419
+s984
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies326526571#326526571#0(0"0(0#1#0"9550262400#0"0#
+
+CCodeSign /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app
+s326526572.510952
+e326526572.863629
+r1
+xCodeSign
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app
+lSLF07#2@38"CodeSign build/Debug-iphoneos/Rdio.app326526572#326526572#0(0"0(0#0#52"/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app10006629664#568"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Jonah Grant (6WD77AZQNQ)" --resource-rules=/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/ResourceRules.plist --entitlements /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio.xcent /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Album.o /Users/jonahgrant/Rdio/Classes/Album.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326525483.221503
+e326525483.402943
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Album.o
+x/Users/jonahgrant/Rdio/Classes/Album.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/jonahgrant/Rdio/Classes/Album.m326525483#326525483#0(0"0(0#0#38"/Users/jonahgrant/Rdio/Classes/Album.m9602642048#1523"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/Album.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Album.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumDetails.o /Users/jonahgrant/Rdio/Classes/AlbumDetails.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326525483.403190
+e326525483.594094
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumDetails.o
+x/Users/jonahgrant/Rdio/Classes/AlbumDetails.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/jonahgrant/Rdio/Classes/AlbumDetails.m326525483#326525483#0(0"0(0#0#45"/Users/jonahgrant/Rdio/Classes/AlbumDetails.m9953514720#1537"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/AlbumDetails.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumDetails.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumObject.o /Users/jonahgrant/Rdio/Classes/AlbumObject.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326525483.523116
+e326525483.797165
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumObject.o
+x/Users/jonahgrant/Rdio/Classes/AlbumObject.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/jonahgrant/Rdio/Classes/AlbumObject.m326525483#326525483#0(0"0(0#0#44"/Users/jonahgrant/Rdio/Classes/AlbumObject.m9917137728#1535"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/AlbumObject.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumObject.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumView.o /Users/jonahgrant/Rdio/Classes/AlbumView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326494541.059519
+e326494541.166894
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumView.o
+x/Users/jonahgrant/Rdio/Classes/AlbumView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/jonahgrant/Rdio/Classes/AlbumView.m326494541#326494541#0(0"0(0#0#42"/Users/jonahgrant/Rdio/Classes/AlbumView.m9249821376#1531"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/AlbumView.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumView.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumViewController.o /Users/jonahgrant/Rdio/Classes/AlbumViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326526571.868349
+e326526572.261247
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumViewController.o
+x/Users/jonahgrant/Rdio/Classes/AlbumViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m: In function '-[AlbumViewController rdioRequest:didLoadData:]':
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:47: warning: 'NSDictionary' may not respond to '-objectAtIndex:'
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:47: warning: (Messages without a matching method signature
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:47: warning: will be assumed to return 'id' and accept
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:47: warning: '...' as arguments.)
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m: At top level:
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:205: warning: incomplete implementation of class 'AlbumViewController'
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:205: warning: method definition for '-rdioPlayerChangedFromState:toState:' not found
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:205: warning: method definition for '-rdioIsPlayingElsewhere' not found
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:205: warning: class 'AlbumViewController' does not fully implement the 'RDPlayerDelegate' protocol
+lSLF07#2@60"Compile /Users/jonahgrant/Rdio/Classes/AlbumViewController.m326526571#326526572#0(1149"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m: In function '-[AlbumViewController rdioRequest:didLoadData:]':/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:47: warning: 'NSDictionary' may not respond to '-objectAtIndex:'/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:47: warning: (Messages without a matching method signature/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:47: warning: will be assumed to return 'id' and accept/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:47: warning: '...' as arguments.)/Users/jonahgrant/Rdio/Classes/AlbumViewController.m: At top level:/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:205: warning: incomplete implementation of class 'AlbumViewController'/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:205: warning: method definition for '-rdioPlayerChangedFromState:toState:' not found/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:205: warning: method definition for '-rdioIsPlayingElsewhere' not found/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:205: warning: class 'AlbumViewController' does not fully implement the 'RDPlayerDelegate' protocol7(22@51"'NSDictionary' may not respond to '-objectAtIndex:'326526572#117#118#0(6@52"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m326526568#47#0#47#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)326526572#235#112#0(6@52"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m326526568#47#0#47#0#0"0(23@13"At top level:326526572#542#68#0(6@52"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m326526568#0#0#0#0#0"0(22@56"Incomplete implementation of class 'AlbumViewController'326526572#610#124#0(6@52"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m326526568#205#0#205#0#38"incomplete implementation of class '*'0(22@70"Method definition for '-rdioPlayerChangedFromState:toState:' not found326526572#734#138#0(6@52"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m326526568#205#0#205#0#35"method definition for '*' not found0(22@57"Method definition for '-rdioIsPlayingElsewhere' not found326526572#872#125#0(6@52"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m326526568#205#0#205#0#35"method definition for '*' not found0(22@84"Class 'AlbumViewController' does not fully implement the 'RDPlayerDelegate' protocol326526572#997#152#0(6@52"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m326526568#205#0#205#0#51"class '*' does not fully implement the '*' protocol0(0#0#52"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m10027386912#1551"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/AlbumViewController.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AlbumViewController.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AsyncImageView.o /Users/jonahgrant/Rdio/Classes/AsyncImageView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326495457.764905
+e326495457.924737
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AsyncImageView.o
+x/Users/jonahgrant/Rdio/Classes/AsyncImageView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/jonahgrant/Rdio/Classes/AsyncImageView.m326495457#326495457#0(0"0(0#0#47"/Users/jonahgrant/Rdio/Classes/AsyncImageView.m9283673792#1541"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/AsyncImageView.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/AsyncImageView.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/CloseupViewController.o /Users/jonahgrant/Rdio/Classes/CloseupViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326495457.901792
+e326495458.046278
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/CloseupViewController.o
+x/Users/jonahgrant/Rdio/Classes/CloseupViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/jonahgrant/Rdio/Classes/CloseupViewController.m326495457#326495458#0(0"0(0#0#54"/Users/jonahgrant/Rdio/Classes/CloseupViewController.m9219568352#1555"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/CloseupViewController.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/CloseupViewController.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/ImageCache.o /Users/jonahgrant/Rdio/Classes/ImageCache.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326495458.046523
+e326495458.132556
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/ImageCache.o
+x/Users/jonahgrant/Rdio/Classes/ImageCache.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/jonahgrant/Rdio/Classes/ImageCache.m326495458#326495458#0(0"0(0#0#43"/Users/jonahgrant/Rdio/Classes/ImageCache.m9279978496#1533"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/ImageCache.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/ImageCache.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/ImageCacheObject.o /Users/jonahgrant/Rdio/Classes/ImageCacheObject.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326495457.924839
+e326495458.049724
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/ImageCacheObject.o
+x/Users/jonahgrant/Rdio/Classes/ImageCacheObject.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/jonahgrant/Rdio/Classes/ImageCacheObject.m326495457#326495458#0(0"0(0#0#49"/Users/jonahgrant/Rdio/Classes/ImageCacheObject.m9300072800#1545"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/ImageCacheObject.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/ImageCacheObject.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioAppDelegate.o /Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326525482.905492
+e326525483.221075
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioAppDelegate.o
+x/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m: In function '-[RdioAppDelegate rdioDidAuthorizeUser:withAccessToken:]':
+o/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: 'NSObject' may not respond to '-rdioDidAuthorizeUser:withAccessToken:'
+o/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: (Messages without a matching method signature
+o/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: will be assumed to return 'id' and accept
+o/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: '...' as arguments.)
+lSLF07#2@56"Compile /Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m326525482#326525483#0(550"/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m: In function '-[RdioAppDelegate rdioDidAuthorizeUser:withAccessToken:]':/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: 'NSObject' may not respond to '-rdioDidAuthorizeUser:withAccessToken:'/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: (Messages without a matching method signature/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: will be assumed to return 'id' and accept/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: '...' as arguments.)2(22@70"'NSObject' may not respond to '-rdioDidAuthorizeUser:withAccessToken:'326525483#122#133#0(6@48"/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m326525191#83#0#83#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)326525483#255#108#0(6@48"/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m326525191#83#0#83#0#0"0(0#0#48"/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m9965876704#1543"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioAppDelegate.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioViewController.o /Users/jonahgrant/Rdio/Classes/RdioViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326526353.267098
+e326526353.502853
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioViewController.o
+x/Users/jonahgrant/Rdio/Classes/RdioViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m: In function '-[RdioViewController rdioRequest:didLoadData:]':
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m:52: warning: 'NSDictionary' may not respond to '-objectAtIndex:'
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m:52: warning: (Messages without a matching method signature
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m:52: warning: will be assumed to return 'id' and accept
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m:52: warning: '...' as arguments.)
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m: At top level:
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m:117: warning: incomplete implementation of class 'RdioViewController'
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m:117: warning: method definition for '-popViewController' not found
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m:117: warning: method definition for '-pushViewController:' not found
+lSLF07#2@59"Compile /Users/jonahgrant/Rdio/Classes/RdioViewController.m326526353#326526353#0(965"/Users/jonahgrant/Rdio/Classes/RdioViewController.m: In function '-[RdioViewController rdioRequest:didLoadData:]':/Users/jonahgrant/Rdio/Classes/RdioViewController.m:52: warning: 'NSDictionary' may not respond to '-objectAtIndex:'/Users/jonahgrant/Rdio/Classes/RdioViewController.m:52: warning: (Messages without a matching method signature/Users/jonahgrant/Rdio/Classes/RdioViewController.m:52: warning: will be assumed to return 'id' and accept/Users/jonahgrant/Rdio/Classes/RdioViewController.m:52: warning: '...' as arguments.)/Users/jonahgrant/Rdio/Classes/RdioViewController.m: At top level:/Users/jonahgrant/Rdio/Classes/RdioViewController.m:117: warning: incomplete implementation of class 'RdioViewController'/Users/jonahgrant/Rdio/Classes/RdioViewController.m:117: warning: method definition for '-popViewController' not found/Users/jonahgrant/Rdio/Classes/RdioViewController.m:117: warning: method definition for '-pushViewController:' not found6(22@51"'NSDictionary' may not respond to '-objectAtIndex:'326526353#115#117#0(6@51"/Users/jonahgrant/Rdio/Classes/RdioViewController.m326526341#52#0#52#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)326526353#232#111#0(6@51"/Users/jonahgrant/Rdio/Classes/RdioViewController.m326526341#52#0#52#0#0"0(23@13"At top level:326526353#536#67#0(6@51"/Users/jonahgrant/Rdio/Classes/RdioViewController.m326526341#0#0#0#0#0"0(22@55"Incomplete implementation of class 'RdioViewController'326526353#603#122#0(6@51"/Users/jonahgrant/Rdio/Classes/RdioViewController.m326526341#117#0#117#0#38"incomplete implementation of class '*'0(22@52"Method definition for '-popViewController' not found326526353#725#119#0(6@51"/Users/jonahgrant/Rdio/Classes/RdioViewController.m326526341#117#0#117#0#35"method definition for '*' not found0(22@54"Method definition for '-pushViewController:' not found326526353#844#121#0(6@51"/Users/jonahgrant/Rdio/Classes/RdioViewController.m326526341#117#0#117#0#35"method definition for '*' not found0(0#0#51"/Users/jonahgrant/Rdio/Classes/RdioViewController.m9953365472#1549"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/RdioViewController.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioViewController.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Settings.o /Users/jonahgrant/Rdio/Classes/Settings.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326491284.541753
+e326491284.913621
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Settings.o
+x/Users/jonahgrant/Rdio/Classes/Settings.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/jonahgrant/Rdio/Classes/Settings.m326491284#326491284#0(0"0(0#0#41"/Users/jonahgrant/Rdio/Classes/Settings.m9137531936#1529"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/Settings.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Settings.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/TrackObject.o /Users/jonahgrant/Rdio/Classes/TrackObject.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326495734.350775
+e326495734.701209
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/TrackObject.o
+x/Users/jonahgrant/Rdio/Classes/TrackObject.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/jonahgrant/Rdio/Classes/TrackObject.m326495734#326495734#0(0"0(0#0#44"/Users/jonahgrant/Rdio/Classes/TrackObject.m9289963840#1535"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/TrackObject.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/TrackObject.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/main.o /Users/jonahgrant/Rdio/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326491284.058785
+e326491284.130580
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/main.o
+x/Users/jonahgrant/Rdio/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Compile /Users/jonahgrant/Rdio/main.m326491284#326491284#0(0"0(0#0#29"/Users/jonahgrant/Rdio/main.m9136862176#1513"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/main.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Album.o /Users/jonahgrant/Rdio/Classes/Album.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326525483.797269
+e326525483.916281
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Album.o
+x/Users/jonahgrant/Rdio/Classes/Album.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/jonahgrant/Rdio/Classes/Album.m326525483#326525483#0(0"0(0#0#38"/Users/jonahgrant/Rdio/Classes/Album.m9424934528#1523"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/Album.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Album.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumDetails.o /Users/jonahgrant/Rdio/Classes/AlbumDetails.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326525483.916384
+e326525484.262359
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumDetails.o
+x/Users/jonahgrant/Rdio/Classes/AlbumDetails.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/jonahgrant/Rdio/Classes/AlbumDetails.m326525483#326525484#0(0"0(0#0#45"/Users/jonahgrant/Rdio/Classes/AlbumDetails.m9420239264#1537"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/AlbumDetails.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumDetails.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumObject.o /Users/jonahgrant/Rdio/Classes/AlbumObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326525484.262636
+e326525484.414018
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumObject.o
+x/Users/jonahgrant/Rdio/Classes/AlbumObject.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/jonahgrant/Rdio/Classes/AlbumObject.m326525484#326525484#0(0"0(0#0#44"/Users/jonahgrant/Rdio/Classes/AlbumObject.m9417136096#1535"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/AlbumObject.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumObject.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumView.o /Users/jonahgrant/Rdio/Classes/AlbumView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326494541.470782
+e326494541.542192
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumView.o
+x/Users/jonahgrant/Rdio/Classes/AlbumView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/jonahgrant/Rdio/Classes/AlbumView.m326494541#326494541#0(0"0(0#0#42"/Users/jonahgrant/Rdio/Classes/AlbumView.m9245406752#1531"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/AlbumView.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumView.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumViewController.o /Users/jonahgrant/Rdio/Classes/AlbumViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326526571.939966
+e326526572.261417
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumViewController.o
+x/Users/jonahgrant/Rdio/Classes/AlbumViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m: In function '-[AlbumViewController rdioRequest:didLoadData:]':
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:47: warning: 'NSDictionary' may not respond to '-objectAtIndex:'
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:47: warning: (Messages without a matching method signature
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:47: warning: will be assumed to return 'id' and accept
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:47: warning: '...' as arguments.)
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m: At top level:
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:205: warning: incomplete implementation of class 'AlbumViewController'
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:205: warning: method definition for '-rdioPlayerChangedFromState:toState:' not found
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:205: warning: method definition for '-rdioIsPlayingElsewhere' not found
+o/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:205: warning: class 'AlbumViewController' does not fully implement the 'RDPlayerDelegate' protocol
+lSLF07#2@60"Compile /Users/jonahgrant/Rdio/Classes/AlbumViewController.m326526571#326526572#0(1149"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m: In function '-[AlbumViewController rdioRequest:didLoadData:]':/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:47: warning: 'NSDictionary' may not respond to '-objectAtIndex:'/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:47: warning: (Messages without a matching method signature/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:47: warning: will be assumed to return 'id' and accept/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:47: warning: '...' as arguments.)/Users/jonahgrant/Rdio/Classes/AlbumViewController.m: At top level:/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:205: warning: incomplete implementation of class 'AlbumViewController'/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:205: warning: method definition for '-rdioPlayerChangedFromState:toState:' not found/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:205: warning: method definition for '-rdioIsPlayingElsewhere' not found/Users/jonahgrant/Rdio/Classes/AlbumViewController.m:205: warning: class 'AlbumViewController' does not fully implement the 'RDPlayerDelegate' protocol7(22@51"'NSDictionary' may not respond to '-objectAtIndex:'326526571#117#118#0(6@52"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m326526568#47#0#47#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)326526571#235#112#0(6@52"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m326526568#47#0#47#0#0"0(23@13"At top level:326526572#542#68#0(6@52"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m326526568#0#0#0#0#0"0(22@56"Incomplete implementation of class 'AlbumViewController'326526572#610#124#0(6@52"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m326526568#205#0#205#0#38"incomplete implementation of class '*'0(22@70"Method definition for '-rdioPlayerChangedFromState:toState:' not found326526572#734#138#0(6@52"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m326526568#205#0#205#0#35"method definition for '*' not found0(22@57"Method definition for '-rdioIsPlayingElsewhere' not found326526572#872#125#0(6@52"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m326526568#205#0#205#0#35"method definition for '*' not found0(22@84"Class 'AlbumViewController' does not fully implement the 'RDPlayerDelegate' protocol326526572#997#152#0(6@52"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m326526568#205#0#205#0#51"class '*' does not fully implement the '*' protocol0(0#0#52"/Users/jonahgrant/Rdio/Classes/AlbumViewController.m10046113760#1551"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/AlbumViewController.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AlbumViewController.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AsyncImageView.o /Users/jonahgrant/Rdio/Classes/AsyncImageView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326495459.543540
+e326495459.643101
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AsyncImageView.o
+x/Users/jonahgrant/Rdio/Classes/AsyncImageView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/jonahgrant/Rdio/Classes/AsyncImageView.m326495459#326495459#0(0"0(0#0#47"/Users/jonahgrant/Rdio/Classes/AsyncImageView.m9265014496#1541"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/AsyncImageView.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/AsyncImageView.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/CloseupViewController.o /Users/jonahgrant/Rdio/Classes/CloseupViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326495459.643310
+e326495459.813037
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/CloseupViewController.o
+x/Users/jonahgrant/Rdio/Classes/CloseupViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/jonahgrant/Rdio/Classes/CloseupViewController.m326495459#326495459#0(0"0(0#0#54"/Users/jonahgrant/Rdio/Classes/CloseupViewController.m9296665760#1555"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/CloseupViewController.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/CloseupViewController.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/ImageCache.o /Users/jonahgrant/Rdio/Classes/ImageCache.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326495459.810859
+e326495459.888479
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/ImageCache.o
+x/Users/jonahgrant/Rdio/Classes/ImageCache.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/jonahgrant/Rdio/Classes/ImageCache.m326495459#326495459#0(0"0(0#0#43"/Users/jonahgrant/Rdio/Classes/ImageCache.m9279570176#1533"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/ImageCache.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/ImageCache.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/ImageCacheObject.o /Users/jonahgrant/Rdio/Classes/ImageCacheObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326495459.663304
+e326495459.810768
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/ImageCacheObject.o
+x/Users/jonahgrant/Rdio/Classes/ImageCacheObject.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/jonahgrant/Rdio/Classes/ImageCacheObject.m326495459#326495459#0(0"0(0#0#49"/Users/jonahgrant/Rdio/Classes/ImageCacheObject.m9286520128#1545"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/ImageCacheObject.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/ImageCacheObject.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioAppDelegate.o /Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326525483.594556
+e326525483.731654
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioAppDelegate.o
+x/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m: In function '-[RdioAppDelegate rdioDidAuthorizeUser:withAccessToken:]':
+o/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: 'NSObject' may not respond to '-rdioDidAuthorizeUser:withAccessToken:'
+o/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: (Messages without a matching method signature
+o/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: will be assumed to return 'id' and accept
+o/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: '...' as arguments.)
+lSLF07#2@56"Compile /Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m326525483#326525483#0(550"/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m: In function '-[RdioAppDelegate rdioDidAuthorizeUser:withAccessToken:]':/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: 'NSObject' may not respond to '-rdioDidAuthorizeUser:withAccessToken:'/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: (Messages without a matching method signature/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: will be assumed to return 'id' and accept/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: '...' as arguments.)2(22@70"'NSObject' may not respond to '-rdioDidAuthorizeUser:withAccessToken:'326525483#122#133#0(6@48"/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m326525191#83#0#83#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)326525483#255#108#0(6@48"/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m326525191#83#0#83#0#0"0(0#0#48"/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m9746242592#1543"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioAppDelegate.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioViewController.o /Users/jonahgrant/Rdio/Classes/RdioViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326526353.503829
+e326526356.715444
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioViewController.o
+x/Users/jonahgrant/Rdio/Classes/RdioViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m: In function '-[RdioViewController rdioRequest:didLoadData:]':
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m:52: warning: 'NSDictionary' may not respond to '-objectAtIndex:'
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m:52: warning: (Messages without a matching method signature
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m:52: warning: will be assumed to return 'id' and accept
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m:52: warning: '...' as arguments.)
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m: At top level:
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m:117: warning: incomplete implementation of class 'RdioViewController'
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m:117: warning: method definition for '-popViewController' not found
+o/Users/jonahgrant/Rdio/Classes/RdioViewController.m:117: warning: method definition for '-pushViewController:' not found
+lSLF07#2@59"Compile /Users/jonahgrant/Rdio/Classes/RdioViewController.m326526353#326526356#0(965"/Users/jonahgrant/Rdio/Classes/RdioViewController.m: In function '-[RdioViewController rdioRequest:didLoadData:]':/Users/jonahgrant/Rdio/Classes/RdioViewController.m:52: warning: 'NSDictionary' may not respond to '-objectAtIndex:'/Users/jonahgrant/Rdio/Classes/RdioViewController.m:52: warning: (Messages without a matching method signature/Users/jonahgrant/Rdio/Classes/RdioViewController.m:52: warning: will be assumed to return 'id' and accept/Users/jonahgrant/Rdio/Classes/RdioViewController.m:52: warning: '...' as arguments.)/Users/jonahgrant/Rdio/Classes/RdioViewController.m: At top level:/Users/jonahgrant/Rdio/Classes/RdioViewController.m:117: warning: incomplete implementation of class 'RdioViewController'/Users/jonahgrant/Rdio/Classes/RdioViewController.m:117: warning: method definition for '-popViewController' not found/Users/jonahgrant/Rdio/Classes/RdioViewController.m:117: warning: method definition for '-pushViewController:' not found6(22@51"'NSDictionary' may not respond to '-objectAtIndex:'326526356#115#117#0(6@51"/Users/jonahgrant/Rdio/Classes/RdioViewController.m326526341#52#0#52#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)326526356#232#111#0(6@51"/Users/jonahgrant/Rdio/Classes/RdioViewController.m326526341#52#0#52#0#0"0(23@13"At top level:326526356#536#67#0(6@51"/Users/jonahgrant/Rdio/Classes/RdioViewController.m326526341#0#0#0#0#0"0(22@55"Incomplete implementation of class 'RdioViewController'326526356#603#122#0(6@51"/Users/jonahgrant/Rdio/Classes/RdioViewController.m326526341#117#0#117#0#38"incomplete implementation of class '*'0(22@52"Method definition for '-popViewController' not found326526356#725#119#0(6@51"/Users/jonahgrant/Rdio/Classes/RdioViewController.m326526341#117#0#117#0#35"method definition for '*' not found0(22@54"Method definition for '-pushViewController:' not found326526356#844#121#0(6@51"/Users/jonahgrant/Rdio/Classes/RdioViewController.m326526341#117#0#117#0#35"method definition for '*' not found0(0#0#51"/Users/jonahgrant/Rdio/Classes/RdioViewController.m10008611616#1549"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/RdioViewController.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioViewController.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Settings.o /Users/jonahgrant/Rdio/Classes/Settings.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326491285.428082
+e326491285.517429
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Settings.o
+x/Users/jonahgrant/Rdio/Classes/Settings.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/jonahgrant/Rdio/Classes/Settings.m326491285#326491285#0(0"0(0#0#41"/Users/jonahgrant/Rdio/Classes/Settings.m9133429856#1529"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/Settings.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Settings.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/TrackObject.o /Users/jonahgrant/Rdio/Classes/TrackObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326495734.416585
+e326495734.621720
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/TrackObject.o
+x/Users/jonahgrant/Rdio/Classes/TrackObject.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/jonahgrant/Rdio/Classes/TrackObject.m326495734#326495734#0(0"0(0#0#44"/Users/jonahgrant/Rdio/Classes/TrackObject.m9307140256#1535"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/TrackObject.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/TrackObject.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/main.o /Users/jonahgrant/Rdio/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326491284.550647
+e326491284.915565
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/main.o
+x/Users/jonahgrant/Rdio/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Compile /Users/jonahgrant/Rdio/main.m326491284#326491284#0(0"0(0#0#29"/Users/jonahgrant/Rdio/main.m9136804160#1513"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/main.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/jonahgrant/Rdio/Classes/AlbumViewController.xib
+s326503698.124604
+e326503698.902997
+r1
+xCompileXIB
+x/Users/jonahgrant/Rdio/Classes/AlbumViewController.xib
+lSLF07#2@42"CompileXIB Classes/AlbumViewController.xib326503698#326503698#0(0"0(0#0#54"/Users/jonahgrant/Rdio/Classes/AlbumViewController.xib9621217792#517"    cd /Users/jonahgrant/Rdio    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/AlbumViewController.nib /Users/jonahgrant/Rdio/Classes/AlbumViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/jonahgrant/Rdio/MainWindow.xib
+s326438467.305368
+e326438467.775390
+r1
+xCompileXIB
+x/Users/jonahgrant/Rdio/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib326438467#326438467#0(0"0(0#0#37"/Users/jonahgrant/Rdio/MainWindow.xib8636530016#491"    cd /Users/jonahgrant/Rdio    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/MainWindow.nib /Users/jonahgrant/Rdio/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/jonahgrant/Rdio/RdioViewController.xib
+s326438467.306282
+e326438467.771749
+r1
+xCompileXIB
+x/Users/jonahgrant/Rdio/RdioViewController.xib
+lSLF07#2@33"CompileXIB RdioViewController.xib326438467#326438467#0(0"0(0#0#45"/Users/jonahgrant/Rdio/RdioViewController.xib8636429184#507"    cd /Users/jonahgrant/Rdio    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/RdioViewController.nib /Users/jonahgrant/Rdio/RdioViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/CoverFooter@2x.png CoverFooter@2x.png
+s326498370.588435
+e326498370.911315
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/CoverFooter@2x.png
+xCoverFooter@2x.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/Rdio.app/CoverFooter@2x.png CoverFooter@2x.png326498370#326498370#0(0"0(0#0#41"/Users/jonahgrant/Rdio/CoverFooter@2x.png9338332160#425"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/CoverFooter@2x.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/CoverFooter@2x.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadActivist.png IpadActivist.png
+s326438863.204336
+e326438863.773501
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadActivist.png
+xIpadActivist.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadActivist.png IpadActivist.png326438863#326438863#0(0"0(0#0#39"/Users/jonahgrant/Rdio/IpadActivist.png8668446720#421"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadActivist.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadActivist.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadAdventurer.png IpadAdventurer.png
+s326438863.205027
+e326438863.772724
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadAdventurer.png
+xIpadAdventurer.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadAdventurer.png IpadAdventurer.png326438863#326438863#0(0"0(0#0#41"/Users/jonahgrant/Rdio/IpadAdventurer.png8665799808#425"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadAdventurer.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadAdventurer.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadAlphaMale.png IpadAlphaMale.png
+s326438863.772814
+e326438863.892453
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadAlphaMale.png
+xIpadAlphaMale.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadAlphaMale.png IpadAlphaMale.png326438863#326438863#0(0"0(0#0#40"/Users/jonahgrant/Rdio/IpadAlphaMale.png8672248224#423"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadAlphaMale.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadAlphaMale.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadCEO.png IpadCEO.png
+s326438863.773550
+e326438863.910372
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadCEO.png
+xIpadCEO.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadCEO.png IpadCEO.png326438863#326438863#0(0"0(0#0#34"/Users/jonahgrant/Rdio/IpadCEO.png8638505856#411"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadCEO.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadCEO.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadCreativeCat.png IpadCreativeCat.png
+s326438863.892539
+e326438864.351217
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadCreativeCat.png
+xIpadCreativeCat.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadCreativeCat.png IpadCreativeCat.png326438863#326438864#0(0"0(0#0#42"/Users/jonahgrant/Rdio/IpadCreativeCat.png8663333440#427"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadCreativeCat.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadCreativeCat.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadDetective.png IpadDetective.png
+s326438863.910451
+e326438864.344464
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadDetective.png
+xIpadDetective.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadDetective.png IpadDetective.png326438863#326438864#0(0"0(0#0#40"/Users/jonahgrant/Rdio/IpadDetective.png8661032800#423"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadDetective.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadDetective.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadEnglishMajor.png IpadEnglishMajor.png
+s326438864.344552
+e326438864.414875
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadEnglishMajor.png
+xIpadEnglishMajor.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadEnglishMajor.png IpadEnglishMajor.png326438864#326438864#0(0"0(0#0#43"/Users/jonahgrant/Rdio/IpadEnglishMajor.png8673535904#429"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadEnglishMajor.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadEnglishMajor.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadEnvironmentalist.png IpadEnvironmentalist.png
+s326438864.351299
+e326438864.411650
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadEnvironmentalist.png
+xIpadEnvironmentalist.png
+lSLF07#2@91"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadEnvironmentalist.png IpadEnvironmentalist.png326438864#326438864#0(0"0(0#0#47"/Users/jonahgrant/Rdio/IpadEnvironmentalist.png8660823712#437"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadEnvironmentalist.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadEnvironmentalist.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadFoodie.png IpadFoodie.png
+s326438864.411738
+e326438864.507946
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadFoodie.png
+xIpadFoodie.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadFoodie.png IpadFoodie.png326438864#326438864#0(0"0(0#0#37"/Users/jonahgrant/Rdio/IpadFoodie.png8659967904#417"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadFoodie.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadFoodie.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadFunnyGuy.png IpadFunnyGuy.png
+s326438864.414946
+e326438864.490768
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadFunnyGuy.png
+xIpadFunnyGuy.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadFunnyGuy.png IpadFunnyGuy.png326438864#326438864#0(0"0(0#0#39"/Users/jonahgrant/Rdio/IpadFunnyGuy.png8657631360#421"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadFunnyGuy.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadFunnyGuy.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadFuturist.png IpadFuturist.png
+s326438864.490852
+e326438864.563743
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadFuturist.png
+xIpadFuturist.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadFuturist.png IpadFuturist.png326438864#326438864#0(0"0(0#0#39"/Users/jonahgrant/Rdio/IpadFuturist.png8657168576#421"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadFuturist.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadFuturist.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadHealthNut.png IpadHealthNut.png
+s326438864.508032
+e326438864.587280
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadHealthNut.png
+xIpadHealthNut.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadHealthNut.png IpadHealthNut.png326438864#326438864#0(0"0(0#0#40"/Users/jonahgrant/Rdio/IpadHealthNut.png8656230592#423"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadHealthNut.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadHealthNut.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadHistoryBuff.png IpadHistoryBuff.png
+s326438864.563839
+e326438864.616135
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadHistoryBuff.png
+xIpadHistoryBuff.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadHistoryBuff.png IpadHistoryBuff.png326438864#326438864#0(0"0(0#0#42"/Users/jonahgrant/Rdio/IpadHistoryBuff.png8675990272#427"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadHistoryBuff.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadHistoryBuff.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadHopefulRomantic.png IpadHopefulRomantic.png
+s326438864.587365
+e326438864.624880
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadHopefulRomantic.png
+xIpadHopefulRomantic.png
+lSLF07#2@89"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadHopefulRomantic.png IpadHopefulRomantic.png326438864#326438864#0(0"0(0#0#46"/Users/jonahgrant/Rdio/IpadHopefulRomantic.png8675454144#435"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadHopefulRomantic.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadHopefulRomantic.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadLabRat.png IpadLabRat.png
+s326438864.616221
+e326438864.670146
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadLabRat.png
+xIpadLabRat.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadLabRat.png IpadLabRat.png326438864#326438864#0(0"0(0#0#37"/Users/jonahgrant/Rdio/IpadLabRat.png8675310240#417"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadLabRat.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadLabRat.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadParent.png IpadParent.png
+s326438864.624957
+e326438864.675492
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadParent.png
+xIpadParent.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadParent.png IpadParent.png326438864#326438864#0(0"0(0#0#37"/Users/jonahgrant/Rdio/IpadParent.png8674841248#417"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadParent.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadParent.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadRecentGrad.png IpadRecentGrad.png
+s326438864.670225
+e326438864.710338
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadRecentGrad.png
+xIpadRecentGrad.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadRecentGrad.png IpadRecentGrad.png326438864#326438864#0(0"0(0#0#41"/Users/jonahgrant/Rdio/IpadRecentGrad.png8674126688#425"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadRecentGrad.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadRecentGrad.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadSingleMingler.png IpadSingleMingler.png
+s326438864.675578
+e326438864.730495
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadSingleMingler.png
+xIpadSingleMingler.png
+lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadSingleMingler.png IpadSingleMingler.png326438864#326438864#0(0"0(0#0#44"/Users/jonahgrant/Rdio/IpadSingleMingler.png8673899744#431"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadSingleMingler.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadSingleMingler.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadSmartyPants.png IpadSmartyPants.png
+s326438864.710516
+e326438864.770967
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadSmartyPants.png
+xIpadSmartyPants.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadSmartyPants.png IpadSmartyPants.png326438864#326438864#0(0"0(0#0#42"/Users/jonahgrant/Rdio/IpadSmartyPants.png8660833664#427"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadSmartyPants.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadSmartyPants.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadSoulSeeker.png IpadSoulSeeker.png
+s326438864.730586
+e326438864.802121
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadSoulSeeker.png
+xIpadSoulSeeker.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadSoulSeeker.png IpadSoulSeeker.png326438864#326438864#0(0"0(0#0#41"/Users/jonahgrant/Rdio/IpadSoulSeeker.png8673291200#425"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadSoulSeeker.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadSoulSeeker.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadSuperhero.png IpadSuperhero.png
+s326438864.771051
+e326438864.850241
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadSuperhero.png
+xIpadSuperhero.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadSuperhero.png IpadSuperhero.png326438864#326438864#0(0"0(0#0#40"/Users/jonahgrant/Rdio/IpadSuperhero.png8672312576#423"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadSuperhero.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadSuperhero.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadTechEnthusiast.png IpadTechEnthusiast.png
+s326438864.802311
+e326438864.887680
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadTechEnthusiast.png
+xIpadTechEnthusiast.png
+lSLF07#2@87"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadTechEnthusiast.png IpadTechEnthusiast.png326438864#326438864#0(0"0(0#0#45"/Users/jonahgrant/Rdio/IpadTechEnthusiast.png8671311040#433"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadTechEnthusiast.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadTechEnthusiast.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadThrillSeeker.png IpadThrillSeeker.png
+s326438864.850377
+e326438864.915076
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadThrillSeeker.png
+xIpadThrillSeeker.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadThrillSeeker.png IpadThrillSeeker.png326438864#326438864#0(0"0(0#0#43"/Users/jonahgrant/Rdio/IpadThrillSeeker.png8675838400#429"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadThrillSeeker.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadThrillSeeker.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadWizard.png IpadWizard.png
+s326438864.887762
+e326438864.953302
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadWizard.png
+xIpadWizard.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadWizard.png IpadWizard.png326438864#326438864#0(0"0(0#0#37"/Users/jonahgrant/Rdio/IpadWizard.png8675423488#417"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadWizard.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadWizard.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadWorldTraveler.png IpadWorldTraveler.png
+s326438864.915159
+e326438865.000427
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadWorldTraveler.png
+xIpadWorldTraveler.png
+lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/Rdio.app/IpadWorldTraveler.png IpadWorldTraveler.png326438864#326438865#0(0"0(0#0#44"/Users/jonahgrant/Rdio/IpadWorldTraveler.png8674806752#431"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/IpadWorldTraveler.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/IpadWorldTraveler.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/_is.png _is.png
+r0
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/bg@2x.png bg@2x.png
+s326496120.748838
+e326496121.874028
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/bg@2x.png
+xbg@2x.png
+lSLF07#2@61"CopyPNGFile build/Debug-iphoneos/Rdio.app/bg@2x.png bg@2x.png326496120#326496121#0(0"0(0#0#32"/Users/jonahgrant/Rdio/bg@2x.png9302392320#407"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/bg@2x.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/bg@2x.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/frame-noglow.png frame-noglow.png
+s326499514.670114
+e326499515.339912
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/frame-noglow.png
+xframe-noglow.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/Rdio.app/frame-noglow.png frame-noglow.png326499514#326499515#0(0"0(0#0#39"/Users/jonahgrant/Rdio/frame-noglow.png9419224704#421"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/frame-noglow.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/frame-noglow.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/frame-noglow@2x.png frame-noglow@2x.png
+s326499514.672916
+e326499515.375787
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/frame-noglow@2x.png
+xframe-noglow@2x.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/Rdio.app/frame-noglow@2x.png frame-noglow@2x.png326499514#326499515#0(0"0(0#0#42"/Users/jonahgrant/Rdio/frame-noglow@2x.png9418925728#427"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/frame-noglow@2x.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/frame-noglow@2x.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/grey-background.png grey-background.png
+s326502813.342819
+e326502815.872954
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/grey-background.png
+xgrey-background.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/Rdio.app/grey-background.png grey-background.png326502813#326502815#0(0"0(0#0#42"/Users/jonahgrant/Rdio/grey-background.png9594030112#427"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/grey-background.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/grey-background.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/grey-background@2x.png grey-background@2x.png
+s326518105.577366
+e326518106.221355
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/grey-background@2x.png
+xgrey-background@2x.png
+lSLF07#2@87"CopyPNGFile build/Debug-iphoneos/Rdio.app/grey-background@2x.png grey-background@2x.png326518105#326518106#0(0"0(0#0#45"/Users/jonahgrant/Rdio/grey-background@2x.png9769889664#433"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/grey-background@2x.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/grey-background@2x.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/ipadStereotypeButton.png ipadStereotypeButton.png
+s326441640.330307
+e326441640.637677
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/ipadStereotypeButton.png
+xipadStereotypeButton.png
+lSLF07#2@91"CopyPNGFile build/Debug-iphoneos/Rdio.app/ipadStereotypeButton.png ipadStereotypeButton.png326441640#326441640#0(0"0(0#0#47"/Users/jonahgrant/Rdio/ipadStereotypeButton.png8894578912#437"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/ipadStereotypeButton.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/ipadStereotypeButton.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/loading.png loading.png
+s326496801.230482
+e326496801.925871
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/loading.png
+xloading.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Rdio.app/loading.png loading.png326496801#326496801#0(0"0(0#0#34"/Users/jonahgrant/Rdio/loading.png9315762304#411"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/loading.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/loading.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/loading@2x.png loading@2x.png
+s326496874.111066
+e326496875.507744
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/loading@2x.png
+xloading@2x.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Rdio.app/loading@2x.png loading@2x.png326496874#326496875#0(0"0(0#0#37"/Users/jonahgrant/Rdio/loading@2x.png9318312384#417"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/loading@2x.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/loading@2x.png0#
+
+CCopyPNGFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/white.png Classes/white.png
+s326495456.546953
+e326495456.984716
+r1
+xCopyPNGFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/white.png
+xClasses/white.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/Rdio.app/white.png Classes/white.png326495456#326495456#0(0"0(0#0#40"/Users/jonahgrant/Rdio/Classes/white.png9278298464#415"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jonahgrant/Rdio/Classes/white.png /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/white.png0#
+
+CCpResource build/Debug-iphoneos/Rdio.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s326438467.295130
+e326438467.300416
+r1
+xCpResource
+xbuild/Debug-iphoneos/Rdio.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist326438467#326438467#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8638749248#459"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app0#
+
+CCpResource build/Debug-iphoneos/Rdio.app/square-600.jpg square-600.jpg
+s326441787.938129
+e326441788.092758
+r1
+xCpResource
+xbuild/Debug-iphoneos/Rdio.app/square-600.jpg
+xsquare-600.jpg
+lSLF07#2@19"Copy square-600.jpg326441787#326441788#0(0"0(0#0#37"/Users/jonahgrant/Rdio/square-600.jpg8902553312#407"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonahgrant/Rdio/square-600.jpg /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app0#
+
+CCreateUniversalBinary /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio normal "armv6 armv7"
+s326526572.385726
+e326526572.390559
+r1
+xCreateUniversalBinary
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio
+xnormal
+xarmv6 armv7
+lSLF07#2@77"CreateUniversalBinary build/Debug-iphoneos/Rdio.app/Rdio normal "armv6 armv7"326526572#326526572#0(0"0(0#0#34"/Users/jonahgrant/Rdio/armv6 armv710018209952#430"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio -output /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio0#
+
+CGenerateDSYMFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app.dSYM /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio
+s326526572.390633
+e326526572.508350
+r1
+xGenerateDSYMFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app.dSYM
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio
+lSLF07#2@86"GenerateDSYMFile build/Debug-iphoneos/Rdio.app.dSYM build/Debug-iphoneos/Rdio.app/Rdio326526572#326526572#0(0"0(0#0#57"/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio10023127552#305"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio -o /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app.dSYM0#
+
+CLd /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio normal armv6
+s326526572.261492
+e326526572.372681
+r1
+xLd
+x/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio
+xnormal
+xarmv6
+lSLF07#2@96"Link /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio326526572#326526572#0(0"0(0#0#0"10000965376#930"    cd /Users/jonahgrant/Rdio    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -filelist /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio.LinkFileList -dead_strip -all_load -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework Rdio -framework CFNetwork -framework SystemConfiguration -framework AudioToolbox -framework Security -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio0#
+
+CLd /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio normal armv7
+s326526572.266703
+e326526572.385635
+r1
+xLd
+x/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio
+xnormal
+xarmv7
+lSLF07#2@96"Link /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio326526572#326526572#0(0"0(0#0#0"9997312448#930"    cd /Users/jonahgrant/Rdio    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -filelist /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio.LinkFileList -dead_strip -all_load -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework Rdio -framework CFNetwork -framework SystemConfiguration -framework AudioToolbox -framework Security -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio0#
+
+CProcessInfoPlistFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Info.plist Rdio-Info.plist
+s326496219.988896
+e326496220.018900
+r1
+xProcessInfoPlistFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Info.plist
+xRdio-Info.plist
+lSLF07#2@23"Process Rdio-Info.plist326496219#326496220#0(0"0(0#0#38"/Users/jonahgrant/Rdio/Rdio-Info.plist9302868928#486"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Rdio-Info.plist -genpkginfo /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/ResourceRules.plist -o /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Info.plist0#
+
+CProcessPCH /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dqucbreoqmjuvefvfnnjhbtoninv/Rdio_Prefix.pch.gch Rdio_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326491092.516856
+e326491100.058306
+r1
+xProcessPCH
+x/var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dqucbreoqmjuvefvfnnjhbtoninv/Rdio_Prefix.pch.gch
+xRdio_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Rdio_Prefix.pch326491092#326491100#0(0"0(0#0#38"/Users/jonahgrant/Rdio/Rdio_Prefix.pch9124516640#1430"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -c /Users/jonahgrant/Rdio/Rdio_Prefix.pch -o /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dqucbreoqmjuvefvfnnjhbtoninv/Rdio_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch.gch Rdio_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326491282.549727
+e326491284.058421
+r1
+xProcessPCH
+x/var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch.gch
+xRdio_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Rdio_Prefix.pch326491282#326491284#0(0"0(0#0#38"/Users/jonahgrant/Rdio/Rdio_Prefix.pch9102261632#1430"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -c /Users/jonahgrant/Rdio/Rdio_Prefix.pch -o /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-dysewwmuuudleochtiupihsjtytm/Rdio_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-eqqcmkoluoozhghimpwpnmguuylr/Rdio_Prefix.pch.gch Rdio_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326438467.798912
+e326438470.101100
+r1
+xProcessPCH
+x/var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-eqqcmkoluoozhghimpwpnmguuylr/Rdio_Prefix.pch.gch
+xRdio_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Rdio_Prefix.pch326438467#326438470#0(0"0(0#0#38"/Users/jonahgrant/Rdio/Rdio_Prefix.pch8641414816#1405"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -c /Users/jonahgrant/Rdio/Rdio_Prefix.pch -o /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-eqqcmkoluoozhghimpwpnmguuylr/Rdio_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch.gch Rdio_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326491282.522058
+e326491283.923807
+r1
+xProcessPCH
+x/var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch.gch
+xRdio_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Rdio_Prefix.pch326491282#326491283#0(0"0(0#0#38"/Users/jonahgrant/Rdio/Rdio_Prefix.pch9131418112#1430"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -c /Users/jonahgrant/Rdio/Rdio_Prefix.pch -o /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fdajkppetcpdkobsgdnxcqrldbqs/Rdio_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fzgynopgmrrthobgzixxgpvykilh/Rdio_Prefix.pch.gch Rdio_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326491092.543657
+e326491100.104346
+r1
+xProcessPCH
+x/var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fzgynopgmrrthobgzixxgpvykilh/Rdio_Prefix.pch.gch
+xRdio_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Rdio_Prefix.pch326491092#326491100#0(0"0(0#0#38"/Users/jonahgrant/Rdio/Rdio_Prefix.pch9124682912#1430"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -c /Users/jonahgrant/Rdio/Rdio_Prefix.pch -o /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-fzgynopgmrrthobgzixxgpvykilh/Rdio_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-hapwlqzvrbqegsbkuqsnhnfrirgd/Rdio_Prefix.pch.gch Rdio_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326438467.775495
+e326438470.213517
+r1
+xProcessPCH
+x/var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-hapwlqzvrbqegsbkuqsnhnfrirgd/Rdio_Prefix.pch.gch
+xRdio_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Rdio_Prefix.pch326438467#326438470#0(0"0(0#0#38"/Users/jonahgrant/Rdio/Rdio_Prefix.pch8647034784#1405"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -c /Users/jonahgrant/Rdio/Rdio_Prefix.pch -o /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-hapwlqzvrbqegsbkuqsnhnfrirgd/Rdio_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/jonahgrant/Library/MobileDevice/Provisioning Profiles/039A3303-4F4D-4487-8420-B14333F8D536.mobileprovision" /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/embedded.mobileprovision
+s326438470.731543
+e326438470.810080
+r1
+xProcessProductPackaging
+x/Users/jonahgrant/Library/MobileDevice/Provisioning Profiles/039A3303-4F4D-4487-8420-B14333F8D536.mobileprovision
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/embedded.mobileprovision
+lSLF07#2@194"ProcessProductPackaging "/Users/jonahgrant/Library/MobileDevice/Provisioning Profiles/039A3303-4F4D-4487-8420-B14333F8D536.mobileprovision" build/Debug-iphoneos/Rdio.app/embedded.mobileprovision326438470#326438470#0(0"0(0#0#77"/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/embedded.mobileprovision8646970080#393"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/jonahgrant/Library/MobileDevice/Provisioning Profiles/039A3303-4F4D-4487-8420-B14333F8D536.mobileprovision" -o /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio.xcent
+s326496220.027005
+e326496220.056116
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio.xcent
+lSLF07#2@166"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio.xcent326496220#326496220#0(0"0(0#0#76"/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio.xcent9301292288#391"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio.xcent0#
+
+CTouch /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app
+s326526572.508521
+e326526572.510832
+r1
+xTouch
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app
+lSLF07#2@58"Touch /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app326526572#326526572#0(0"0(0#0#0"10004226848#229"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app0#
+

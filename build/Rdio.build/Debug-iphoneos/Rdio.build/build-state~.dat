@@ -1,0 +1,429 @@
+TRdio
+v7
+r0
+t326438471.701330
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Rdio.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Info.plist Rdio-Info.plist
+cCompileXIB /Users/jonahgrant/Rdio/MainWindow.xib
+cCompileXIB /Users/jonahgrant/Rdio/RdioViewController.xib
+cProcessPCH /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-hapwlqzvrbqegsbkuqsnhnfrirgd/Rdio_Prefix.pch.gch Rdio_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-eqqcmkoluoozhghimpwpnmguuylr/Rdio_Prefix.pch.gch Rdio_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/main.o /Users/jonahgrant/Rdio/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioAppDelegate.o /Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioViewController.o /Users/jonahgrant/Rdio/Classes/RdioViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/main.o /Users/jonahgrant/Rdio/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioAppDelegate.o /Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio normal armv6
+cCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioViewController.o /Users/jonahgrant/Rdio/Classes/RdioViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio normal armv7
+cCreateUniversalBinary /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio normal "armv6 armv7"
+cGenerateDSYMFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app.dSYM /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio
+cProcessProductPackaging "/Users/jonahgrant/Library/MobileDevice/Provisioning Profiles/039A3303-4F4D-4487-8420-B14333F8D536.mobileprovision" /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/embedded.mobileprovision
+cTouch /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio.xcent
+cCodeSign /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D5F25270000000000000110
+t1298081063
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Users/jonahgrant/Library/MobileDevice/Provisioning Profiles/039A3303-4F4D-4487-8420-B14333F8D536.mobileprovision
+c000000004DBE02240000000000002075
+t1304298020
+s8309
+
+N/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.h
+c000000004DC4D65800000000000001CB
+t1304745560
+s459
+i<UIKit/UIKit.h>
+
+N/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m
+c000000004DC4D6580000000000000A99
+t1304745560
+s2713
+i"RdioAppDelegate.h"
+i"RdioViewController.h"
+
+N/Users/jonahgrant/Rdio/Classes/RdioViewController.h
+c000000004DC4D68C000000000000014A
+t1304745612
+s330
+i<UIKit/UIKit.h>
+
+N/Users/jonahgrant/Rdio/Classes/RdioViewController.m
+c000000004DC4D6C30000000000000315
+t1304745667
+s789
+i"RdioViewController.h"
+
+N/Users/jonahgrant/Rdio/MainWindow.xib
+c000000004DC4D6580000000000004E05
+t1304745560
+s19973
+
+N/Users/jonahgrant/Rdio/RdioViewController.xib
+c000000004DC4D6580000000000001A39
+t1304745560
+s6713
+
+N/Users/jonahgrant/Rdio/Rdio_Prefix.pch
+c000000004DC4D65800000000000000B1
+t1304745560
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app
+t1304745671
+s374
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app.dSYM
+t1304745670
+s102
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Info.plist
+t1304745667
+s826
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/MainWindow.nib
+t1304745667
+s1675
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/PkgInfo
+t1304745667
+s8
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio
+t1304745670
+s42324
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/RdioViewController.nib
+t1304745667
+s1269
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/ResourceRules.plist
+t1304745667
+s485
+
+N/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/embedded.mobileprovision
+t1304745670
+s8309
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio
+t1304745670
+s17600
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio.LinkFileList
+c000000004DC4D6C30000000000000133
+t1304745667
+s307
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioAppDelegate.o
+t1304745670
+s50616
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioViewController.o
+t1304745670
+s41088
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/main.o
+t1304745670
+s6416
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio
+t1304745670
+s17748
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio.LinkFileList
+c000000004DC4D6C30000000000000133
+t1304745667
+s307
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioAppDelegate.o
+t1304745670
+s50508
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioViewController.o
+t1304745670
+s41012
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/main.o
+t1304745670
+s6400
+
+N/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio.xcent
+t1304745670
+s414
+
+N/Users/jonahgrant/Rdio/main.m
+c000000004DC4D6580000000000000164
+t1304745560
+s356
+i<UIKit/UIKit.h>
+
+N/var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-eqqcmkoluoozhghimpwpnmguuylr/Rdio_Prefix.pch.gch
+t1304745669
+s10647452
+
+N/var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-hapwlqzvrbqegsbkuqsnhnfrirgd/Rdio_Prefix.pch.gch
+t1304745670
+s10184604
+
+NRdio-Info.plist
+c000000004DC4D658000000000000038D
+t1304745560
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies326438467#326438467#0(0"0(0#1#0"8636485024#0"0#
+
+CCodeSign /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app
+s326438470.831008
+e326438471.701225
+r1
+xCodeSign
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app
+lSLF07#2@38"CodeSign build/Debug-iphoneos/Rdio.app326438470#326438471#0(0"0(0#0#52"/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app8634697024#568"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Jonah Grant (6WD77AZQNQ)" --resource-rules=/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/ResourceRules.plist --entitlements /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio.xcent /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioAppDelegate.o /Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326438470.214963
+e326438470.324173
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioAppDelegate.o
+x/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m326438470#326438470#0(0"0(0#0#48"/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m8639824512#1518"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-hapwlqzvrbqegsbkuqsnhnfrirgd/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioAppDelegate.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioViewController.o /Users/jonahgrant/Rdio/Classes/RdioViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326438470.321554
+e326438470.418621
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioViewController.o
+x/Users/jonahgrant/Rdio/Classes/RdioViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/jonahgrant/Rdio/Classes/RdioViewController.m326438470#326438470#0(0"0(0#0#51"/Users/jonahgrant/Rdio/Classes/RdioViewController.m8637701440#1524"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-hapwlqzvrbqegsbkuqsnhnfrirgd/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/RdioViewController.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/RdioViewController.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/main.o /Users/jonahgrant/Rdio/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326438470.213661
+e326438470.321447
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/main.o
+x/Users/jonahgrant/Rdio/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Compile /Users/jonahgrant/Rdio/main.m326438470#326438470#0(0"0(0#0#29"/Users/jonahgrant/Rdio/main.m8646335008#1488"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-hapwlqzvrbqegsbkuqsnhnfrirgd/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/main.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioAppDelegate.o /Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326438470.391917
+e326438470.547200
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioAppDelegate.o
+x/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m326438470#326438470#0(0"0(0#0#48"/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m8630342112#1518"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-eqqcmkoluoozhghimpwpnmguuylr/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioAppDelegate.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioViewController.o /Users/jonahgrant/Rdio/Classes/RdioViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326438470.547293
+e326438470.616148
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioViewController.o
+x/Users/jonahgrant/Rdio/Classes/RdioViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/jonahgrant/Rdio/Classes/RdioViewController.m326438470#326438470#0(0"0(0#0#51"/Users/jonahgrant/Rdio/Classes/RdioViewController.m8647130176#1524"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-eqqcmkoluoozhghimpwpnmguuylr/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/Classes/RdioViewController.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/RdioViewController.o0#
+
+CCompileC build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/main.o /Users/jonahgrant/Rdio/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326438470.324263
+e326438470.391816
+r1
+xCompileC
+xbuild/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/main.o
+x/Users/jonahgrant/Rdio/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Compile /Users/jonahgrant/Rdio/main.m326438470#326438470#0(0"0(0#0#29"/Users/jonahgrant/Rdio/main.m8636170848#1488"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -include /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-eqqcmkoluoozhghimpwpnmguuylr/Rdio_Prefix.pch -c /Users/jonahgrant/Rdio/main.m -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/jonahgrant/Rdio/MainWindow.xib
+s326438467.305368
+e326438467.775390
+r1
+xCompileXIB
+x/Users/jonahgrant/Rdio/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib326438467#326438467#0(0"0(0#0#37"/Users/jonahgrant/Rdio/MainWindow.xib8636530016#491"    cd /Users/jonahgrant/Rdio    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/MainWindow.nib /Users/jonahgrant/Rdio/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/jonahgrant/Rdio/RdioViewController.xib
+s326438467.306282
+e326438467.771749
+r1
+xCompileXIB
+x/Users/jonahgrant/Rdio/RdioViewController.xib
+lSLF07#2@33"CompileXIB RdioViewController.xib326438467#326438467#0(0"0(0#0#45"/Users/jonahgrant/Rdio/RdioViewController.xib8636429184#507"    cd /Users/jonahgrant/Rdio    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/RdioViewController.nib /Users/jonahgrant/Rdio/RdioViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCpResource build/Debug-iphoneos/Rdio.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s326438467.295130
+e326438467.300416
+r1
+xCpResource
+xbuild/Debug-iphoneos/Rdio.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist326438467#326438467#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8638749248#459"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app0#
+
+CCreateUniversalBinary /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio normal "armv6 armv7"
+s326438470.672705
+e326438470.685282
+r1
+xCreateUniversalBinary
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio
+xnormal
+xarmv6 armv7
+lSLF07#2@77"CreateUniversalBinary build/Debug-iphoneos/Rdio.app/Rdio normal "armv6 armv7"326438470#326438470#0(0"0(0#0#34"/Users/jonahgrant/Rdio/armv6 armv78639036128#430"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio -output /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio0#
+
+CGenerateDSYMFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app.dSYM /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio
+s326438470.685357
+e326438470.731451
+r1
+xGenerateDSYMFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app.dSYM
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio
+lSLF07#2@86"GenerateDSYMFile build/Debug-iphoneos/Rdio.app.dSYM build/Debug-iphoneos/Rdio.app/Rdio326438470#326438470#0(0"0(0#0#57"/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio8637176320#305"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Rdio -o /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app.dSYM0#
+
+CLd /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio normal armv6
+s326438470.418710
+e326438470.578476
+r1
+xLd
+x/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio
+xnormal
+xarmv6
+lSLF07#2@96"Link /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio326438470#326438470#0(0"0(0#0#0"8609155648#761"    cd /Users/jonahgrant/Rdio    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -filelist /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv6/Rdio0#
+
+CLd /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio normal armv7
+s326438470.616228
+e326438470.672601
+r1
+xLd
+x/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio
+xnormal
+xarmv7
+lSLF07#2@96"Link /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio326438470#326438470#0(0"0(0#0#0"8640195200#761"    cd /Users/jonahgrant/Rdio    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/jonahgrant/Rdio/build/Debug-iphoneos -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -filelist /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Objects-normal/armv7/Rdio0#
+
+CProcessInfoPlistFile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Info.plist Rdio-Info.plist
+s326438467.296106
+e326438467.305296
+r1
+xProcessInfoPlistFile
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Info.plist
+xRdio-Info.plist
+lSLF07#2@23"Process Rdio-Info.plist326438467#326438467#0(0"0(0#0#38"/Users/jonahgrant/Rdio/Rdio-Info.plist8637950208#486"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Rdio-Info.plist -genpkginfo /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/ResourceRules.plist -o /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/Info.plist0#
+
+CProcessPCH /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-eqqcmkoluoozhghimpwpnmguuylr/Rdio_Prefix.pch.gch Rdio_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326438467.798912
+e326438470.101100
+r1
+xProcessPCH
+x/var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-eqqcmkoluoozhghimpwpnmguuylr/Rdio_Prefix.pch.gch
+xRdio_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Rdio_Prefix.pch326438467#326438470#0(0"0(0#0#38"/Users/jonahgrant/Rdio/Rdio_Prefix.pch8641414816#1405"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv7 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -c /Users/jonahgrant/Rdio/Rdio_Prefix.pch -o /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-eqqcmkoluoozhghimpwpnmguuylr/Rdio_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-hapwlqzvrbqegsbkuqsnhnfrirgd/Rdio_Prefix.pch.gch Rdio_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326438467.775495
+e326438470.213517
+r1
+xProcessPCH
+x/var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-hapwlqzvrbqegsbkuqsnhnfrirgd/Rdio_Prefix.pch.gch
+xRdio_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Rdio_Prefix.pch326438467#326438470#0(0"0(0#0#38"/Users/jonahgrant/Rdio/Rdio_Prefix.pch8647034784#1405"    cd /Users/jonahgrant/Rdio    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-generated-files.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-own-target-headers.hmap -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-all-target-headers.hmap -iquote /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio-project-headers.hmap -F/Users/jonahgrant/Rdio/build/Debug-iphoneos -I/Users/jonahgrant/Rdio/build/Debug-iphoneos/include -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources/armv6 -I/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/DerivedSources -c /Users/jonahgrant/Rdio/Rdio_Prefix.pch -o /var/folders/qZ/qZxnUPSOF5S8yEbSxrhL1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rdio_Prefix-hapwlqzvrbqegsbkuqsnhnfrirgd/Rdio_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/jonahgrant/Library/MobileDevice/Provisioning Profiles/039A3303-4F4D-4487-8420-B14333F8D536.mobileprovision" /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/embedded.mobileprovision
+s326438470.731543
+e326438470.810080
+r1
+xProcessProductPackaging
+x/Users/jonahgrant/Library/MobileDevice/Provisioning Profiles/039A3303-4F4D-4487-8420-B14333F8D536.mobileprovision
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/embedded.mobileprovision
+lSLF07#2@194"ProcessProductPackaging "/Users/jonahgrant/Library/MobileDevice/Provisioning Profiles/039A3303-4F4D-4487-8420-B14333F8D536.mobileprovision" build/Debug-iphoneos/Rdio.app/embedded.mobileprovision326438470#326438470#0(0"0(0#0#77"/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/embedded.mobileprovision8646970080#393"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/jonahgrant/Library/MobileDevice/Provisioning Profiles/039A3303-4F4D-4487-8420-B14333F8D536.mobileprovision" -o /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio.xcent
+s326438470.819952
+e326438470.830940
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio.xcent
+lSLF07#2@166"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio.xcent326438470#326438470#0(0"0(0#0#76"/Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio.xcent8636292928#391"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/jonahgrant/Rdio/build/Rdio.build/Debug-iphoneos/Rdio.build/Rdio.xcent0#
+
+CTouch /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app
+s326438470.810156
+e326438470.819870
+r1
+xTouch
+x/Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app
+lSLF07#2@58"Touch /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app326438470#326438470#0(0"0(0#0#0"8635209728#229"    cd /Users/jonahgrant/Rdio    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jonahgrant/Rdio/build/Debug-iphoneos/Rdio.app0#
+

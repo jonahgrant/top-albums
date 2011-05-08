@@ -1,0 +1,5 @@
+/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m: In function '-[RdioAppDelegate rdioDidAuthorizeUser:withAccessToken:]':
+/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: 'NSObject' may not respond to '-rdioDidAuthorizeUser:withAccessToken:'
+/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: (Messages without a matching method signature
+/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: will be assumed to return 'id' and accept
+/Users/jonahgrant/Rdio/Classes/RdioAppDelegate.m:83: warning: '...' as arguments.)
